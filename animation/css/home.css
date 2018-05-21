@@ -1,6 +1,9 @@
 p, h1, h2, h3, h4, h5{
   font-family: 'Poppins', sans-serif;
 }
+body {
+  background: rgb(216, 231, 255);
+}
 /* h1 {
   font-size: 6em;
   line-height: 1.1em;
@@ -39,6 +42,7 @@ h3 {
   width: 190px;
   height:240px;
   margin: 2% auto;
+  padding: 2px;
   background: url("../img/perfume-sprite.png") left center;
   animation: play .8s steps(10) infinite;
 }
@@ -46,3 +50,96 @@ h3 {
   from {background-position: 0px;}
   to {background-position: -1900px;}
 }
+
+@keyframes heartbeat_animation {
+    0% { transform: scale(1); }
+    30% { transform: scale(1); }
+    40% { transform: scale(1.08); }
+    50% { transform: scale(1); }
+    60% { transform: scale(1); }
+    70% { transform: scale(1.05); }
+    80% { transform: scale(1); }
+    100% { transform: scale(1); }
+}
+.heartbeat {
+    display: inline-block;
+    padding: 20px;
+    background: rgb(255, 124, 124);
+    font-weight: bold;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    animation-name: heartbeat_animation;
+    animation-duration: 5000ms;
+    transform-origin:70% 70%;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+  $green: #45b29d;
+  $greenHover: #2d7365;
+
+  /* * {
+  	box-sizing: border-box;
+  	padding: 0;
+  	margin: 0;
+  	outline: none;
+  	text-rendering: optimizeLegibility;
+  	-webkit-font-smoothing: antialiased;
+  	-moz-osx-font-smoothing: grayscale;
+
+  	-webkit-tap-highlight-color: rgba(0,0,0,0);
+  } */
+
+  section {
+  	position: relative;
+  	display: inline-block;
+  	float: left;
+  	width: 50vw;
+  	height: 50vh;
+  	padding: 20px;
+  	transition: all 0.25s;
+
+  	&:after {
+  		position: absolute;
+  		z-index: 9;
+  		content: "";
+  		transition: all 0.25s;
+  	}
+
+
+  	&.wipe-left,
+  	&.wipe-right {
+  		&:after {
+  			top: 0;
+  			width: 0;
+  			height: 100%;
+  		}
+  	}
+
+
+  	&.wipe-right {
+  		background-color: $green;
+
+  		&:after {
+  			left: 0;
+  			background-color: $greenHover;
+  		}
+  	}
+
+  	&:hover:after {
+  		width: 100%;
+  		height: 100%;
+  	}
+
+  	span {
+  		position: absolute;
+  		top: 50%;
+  		left: 50%;
+  		z-index: 99;
+  		font-size: 18px;
+
+  		text-align: center;
+  		text-transform: uppercase;
+  		transform: translate(-50%, -50%);
+  	}
+  }

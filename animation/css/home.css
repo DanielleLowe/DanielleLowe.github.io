@@ -1,7 +1,7 @@
 p, h1, h2, h3, h4, h5{
   font-family: 'Poppins', sans-serif;
 }
-h1 {
+/* h1 {
   font-size: 6em;
   line-height: 1.1em;
   margin: 20px auto;
@@ -22,7 +22,7 @@ h3 {
   margin: 20px auto;
   padding: 2px;
   text-decoration: none;
-}
+} */
 /* div {
   padding: 2px;
   margin: 5px auto;

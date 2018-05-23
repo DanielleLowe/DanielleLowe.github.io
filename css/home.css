@@ -30,3 +30,26 @@ div{
   padding: 15px;
   margin: 20px auto;
 }
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 25%;
+    height: 100%; /* Full height */
+    position: fixed; /* Make it stick, even on scroll */
+    overflow: auto; /* Enable scrolling if the sidenav has too much content */
+}
+li a {
+    display: block;
+    width: 60px;
+}
+.custom-sidenav {
+  @include side-nav(
+    // Font size of nav items
+    $font-size:1.2em;
+  );
+}
+.sheep {
+  position: absolute;
+  right: -480px;
+}

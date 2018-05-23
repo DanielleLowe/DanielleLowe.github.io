@@ -1,36 +1,10 @@
 p, h1, h2, h3, h4, h5{
   font-family: 'Poppins', sans-serif;
-  text-decoration: none;
 }
 body {
   background: rgb(216, 231, 255);
 }
-/* h1 {
-  font-size: 6em;
-  line-height: 1.1em;
-  margin: 20px auto;
-  padding: 2px;
-  text-decoration: none;
-}
-h2 {
-  font-size: 4em;
-  line-height: 1.1em;
-  margin: 20px auto;
-  padding: 2px;
-  text-decoration: none;
-}
-h3 {
-  text-align: center;
-  font-size: 2em;
-  line-height: 1.1em;
-  margin: 20px auto;
-  padding: 2px;
-  text-decoration: none;
-} */
-/* div {
-  padding: 2px;
-  margin: 5px auto;
-} */
+
 .cen {
   text-align: center;
 }

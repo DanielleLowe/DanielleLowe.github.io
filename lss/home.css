@@ -1,0 +1,36 @@
+body{
+    background:url(http://lostworldsfairs.com/atlantis/img/bg_backwave.png)repeat-x 1px 80px,
+      rgb(122, 218, 255); );
+
+}
+
+#stage{
+  height:3000px;
+  width:100px;
+  margin:0 auto;
+  border: 1px solid red;
+  position:relative;
+/*   overflow:hidden; */
+
+}
+/* p {
+  height: 100px;
+  width: 200px;
+  background:red;
+  color:white;
+  position:absolute;
+  left:-200px;
+  top:2500;
+  transition:left 0.2s;
+} */
+#submarine {
+  height:50px;
+  width:100px;
+  border:1px solid red;
+  margin-left: -50px;
+  line-height:50px;
+  text-align: center;
+  position: absolute;
+  top: 0;
+  left: 50%;
+}

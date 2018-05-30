@@ -13,4 +13,4 @@ var submarine = document.getElementById("submarine");
   submarine.style.top = fromTop *1.02 + "px";
 
   // submarine.style.transform="rotate("+ fromTop + "deg)";
- };
+   };

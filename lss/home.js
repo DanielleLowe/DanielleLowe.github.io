@@ -1,4 +1,4 @@
-var submarine = document.getElementById("submarine");
+var submarine = document.getElementById("sheep");
 
  window.onscroll = function(){
 
@@ -8,9 +8,9 @@ var submarine = document.getElementById("submarine");
 
   console.log(fromTop);
 
-  submarine.innerHTML = fromTop + "px";
+  sheep.innerHTML = fromTop + "px";
 
-  submarine.style.top = fromTop *1.02 + "px";
+  sheep.style.top = fromTop *1.02 + "px";
 
   // submarine.style.transform="rotate("+ fromTop + "deg)";
    };

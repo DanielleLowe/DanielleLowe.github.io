@@ -1,12 +1,12 @@
-var submarine = document.getElementById("sheep");
+var sheep = document.getElementById("sheep");
 
  window.onscroll = function(){
 
-  console.log("yo, yo, yo");
+  // console.log("yo, yo, yo");
 
   var fromTop = window.pageYOffset;
 
-  console.log(fromTop);
+  // console.log(fromTop);
 
   sheep.innerHTML = fromTop + "px";
 
@@ -14,3 +14,9 @@ var submarine = document.getElementById("sheep");
 
   // submarine.style.transform="rotate("+ fromTop + "deg)";
    };
+
+   $(document).ready(function(){
+    $("bird").onscroll(function(){
+    $("bird").animate({left: '250px'});
+    });
+});

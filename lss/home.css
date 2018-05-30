@@ -1,12 +1,12 @@
 body{
-    background:url(http://lostworldsfairs.com/atlantis/img/bg_backwave.png)repeat-x 1px 80px,
-      rgb(122, 218, 255); );
-
+    /* background:url(http://lostworldsfairs.com/atlantis/img/bg_backwave.png)repeat-x 1px 80px,
+      rgb(122, 218, 255); ); */
+background:rgb(122, 218, 255);
 }
 
-#stage{
+#container{
   height:3000px;
-  width:100px;
+  width:1000px;
   margin:0 auto;
   border: 1px solid red;
   position:relative;

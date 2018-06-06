@@ -1,3 +1,4 @@
+
 #canvas{
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#d6d6d6+4,808eed+47,1e5799+100 */
 background: #d6d6d6; /* Old browsers */
@@ -5,21 +6,19 @@ background: -moz-linear-gradient(top, #d6d6d6 4%, #808eed 47%, #1e5799 100%); /*
 background: -webkit-linear-gradient(top, #d6d6d6 4%,#808eed 47%,#1e5799 100%); /* Chrome10-25,Safari5.1-6 */
 background: linear-gradient(to bottom, #d6d6d6 4%,#808eed 47%,#1e5799 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d6d6d6', endColorstr='#1e5799',GradientType=0 ); /* IE6-9 */
-  width:600px;
+  width:800px;
   height:10000px;
   margin:0 auto;
   position:relative;
 
 }
 
+
 #sheep{
-  border:2px solid blue;
-  background-color:blue;
-  color:white;
   width:200px;
   height:30px;
   top:123px;
-  left:90px;
+  left:120px;
   position:absolute;
   z-index:-1;
   opacity:0.9;
@@ -35,13 +34,107 @@ h1{  border:2px solid blue;
      z-index:-2;
      opacity:0.9;
 }
+#iconcaption {width:300px;
+  border:2px solid white;
+  background-color:black;
+  color:white;
+  padding:2px;
+  text-align: center;
+  position:absolute;
+  top:80px;
+  left:255px;
+}
 
 #icon {width:300px;
   position:absolute;
   top:200px;
-  left:140px;
+  left:250px;
 }
-
+#musiccaption {width:300px;
+  border:2px solid white;
+  background-color:black;
+  color:white;
+  padding:2px;
+  text-align: center;
+  position:absolute;
+  top:780px;
+  right:5px;
+}
+#music{width:300px;
+  position:absolute;
+  top:780px;
+  left:5px;
+}
+#stepscaption {width:300px;
+  border:2px solid white;
+  background-color:black;
+  color:white;
+  padding:2px;
+  text-align: center;
+  position:absolute;
+  top:1450px;
+  left:250px;
+}
+#recordcaption {width:300px;
+  border:2px solid white;
+  background-color:black;
+  color:white;
+  padding:2px;
+  text-align: center;
+  position:absolute;
+  top:1950px;
+  left:250px;
+}
+#record{width:300px;
+  position:absolute;
+  top:2020px;
+  left:250px;
+}
+#checkcaption {width:300px;
+  border:2px solid white;
+  background-color:black;
+  color:white;
+  padding:2px;
+  text-align: center;
+  position:absolute;
+  top:2760px;
+  left:250px;
+}
+#check{width:300px;
+  position:absolute;
+  top:2920px;
+  left:250px;
+}
+#saying {width:300px;
+  border:2px solid white;
+  background-color:black;
+  color:white;
+  padding:2px;
+  text-align: center;
+  position:absolute;
+  top:4050px;
+  left:250px;
+}
+#signs {width:300px;
+  border:2px solid white;
+  background-color:black;
+  color:white;
+  padding:2px;
+  text-align: center;
+  position:absolute;
+  top:4900px;
+  left:250px;
+}
+#drift {width:300px;
+  border:2px solid white;
+  background-color:black;
+  color:white;
+  padding:2px;
+  text-align: center;
+  position:absolute;
+  top:5600px;
+  left:250px;
+}
 
 /* relative, absolute, fixed, static
 http://www.barelyfitz.com/screencast/html-training/css/positioning/

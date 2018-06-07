@@ -50,6 +50,15 @@ li a {
   ); */ */
 }
 .sheep {
-  position: absolute;
-  right: -480px;
+  position: relative;
+  left: 80px;
+}
+a{
+  text-decoration: none;
+}
+#canvas{
+  width:800px;
+  height:7000px;
+  margin:0 auto;
+  position:relative;
 }

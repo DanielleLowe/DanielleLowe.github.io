@@ -1,4 +1,4 @@
-p, h2, h3, h4, h5{
+p, h2, h3, h4, a{
   font-family: 'Poppins', sans-serif;
 }
 h1 {
@@ -53,12 +53,16 @@ li a {
   position: relative;
   left: 80px;
 }
-a{
-  text-decoration: none;
-}
 #canvas{
   width:800px;
   height:7000px;
   margin:0 auto;
   position:relative;
 }
+a {
+  color: inherit;
+  font-size: 2em;
+  line-height: 1.1em;
+  margin: 20px auto;
+  padding: 10px;
+ }
